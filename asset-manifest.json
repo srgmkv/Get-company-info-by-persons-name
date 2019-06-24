@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Get-company-info-by-persons-name/static/css/main.3ec0f080.chunk.css",
-    "main.js": "/Get-company-info-by-persons-name/static/js/main.b0c3f7d7.chunk.js",
-    "main.js.map": "/Get-company-info-by-persons-name/static/js/main.b0c3f7d7.chunk.js.map",
+    "main.css": "/Get-company-info-by-persons-name/static/css/main.8ab9695b.chunk.css",
+    "main.js": "/Get-company-info-by-persons-name/static/js/main.51831cb6.chunk.js",
+    "main.js.map": "/Get-company-info-by-persons-name/static/js/main.51831cb6.chunk.js.map",
     "runtime~main.js": "/Get-company-info-by-persons-name/static/js/runtime~main.faae85c9.js",
     "runtime~main.js.map": "/Get-company-info-by-persons-name/static/js/runtime~main.faae85c9.js.map",
     "static/js/2.9e47259f.chunk.js": "/Get-company-info-by-persons-name/static/js/2.9e47259f.chunk.js",
     "static/js/2.9e47259f.chunk.js.map": "/Get-company-info-by-persons-name/static/js/2.9e47259f.chunk.js.map",
     "index.html": "/Get-company-info-by-persons-name/index.html",
-    "precache-manifest.ebfb61c2b4c207a1251b3157d2cdffed.js": "/Get-company-info-by-persons-name/precache-manifest.ebfb61c2b4c207a1251b3157d2cdffed.js",
+    "precache-manifest.e805bf4ad276c6983aa450fae63c70c9.js": "/Get-company-info-by-persons-name/precache-manifest.e805bf4ad276c6983aa450fae63c70c9.js",
     "service-worker.js": "/Get-company-info-by-persons-name/service-worker.js",
-    "static/css/main.3ec0f080.chunk.css.map": "/Get-company-info-by-persons-name/static/css/main.3ec0f080.chunk.css.map"
+    "static/css/main.8ab9695b.chunk.css.map": "/Get-company-info-by-persons-name/static/css/main.8ab9695b.chunk.css.map"
   }
 }
