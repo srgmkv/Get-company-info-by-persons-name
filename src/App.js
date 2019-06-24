@@ -88,14 +88,14 @@ export default class App extends React.Component {
 
   render() {
     const selectList = this.state.suggestions.map((item, index) =>
-      <option className="select-item" onClick={() => this.handleSelectClick(item)}>{item}</option>
+      <div className="select-item" onClick={() => this.handleSelectClick(item)}>{item}</div>
     )
 
     const searchResult = this.state.orgsInfo && this.state.orgsInfo.map(item =>
       <div className="result">
-        <div><span className="field-name">Наименование:</span> {item.value}</div>
-        <div><span className="field-name">ИНН:</span> {item.inn}</div>
-        <div><span className="field-name">Адрес:</span> {item.address}</div>
+        <div><span className="field-name">Наименование:</span> <span>{item.value}</span></div>
+        <div><span className="field-name">ИНН:</span> <span>{item.inn}</span></div>
+        <div><span className="field-name">Адрес:</span><span>{item.address}</span></div>
       </div>
     )
 
@@ -113,10 +113,10 @@ export default class App extends React.Component {
         </div>
         {
           this.state.isSelectShown &&
-          <select ref={this.select} className="select-list" size="11">
-            <option disabled className="select-item-sugg">Выберите из списка или продолжайте вводить</option>
+          <div ref={this.select} className="select-list" size="11">
+            <div className="select-item-sugg">Выберите из списка или продолжайте вводить</div>
             {selectList}
-          </select>
+          </div>
         }
         {
           this.state.orgsInfo &&
