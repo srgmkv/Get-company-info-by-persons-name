@@ -64,8 +64,8 @@ export default class App extends React.Component {
       method: 'POST',
       url: 'https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/party',
       data: {
-        query: self.state.fio
-
+        query: self.state.fio,
+        count: 20
       },
       headers: {
         "Authorization": "Token b8678ebf716355f62ab8f0a9d2afcbe82ea155c6",
