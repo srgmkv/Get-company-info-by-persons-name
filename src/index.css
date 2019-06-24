@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 600px;
+  margin: 0 auto;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea {
+    font-family: 'Roboto', Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    padding: 0 10px;
+    height: 42px;
+    background: #fff;
+    border: 1px solid #c6c6c6;
+    border-color: #c6c6c6 #d9d9d9 #e4e4e4;
+     box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 1px;
+    box-shadow: 0px 2px 1px -1px rgba(255, 255, 255, 0.75), inset 0px 0px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+    flex: 1 1 100%;
+}
+
+.select-item:hover {
+  background-color: rgb(190, 238, 238);
+}
+.select-item {
+  font-size: 16px;
+  padding: 2px;
+}
+.select-list {
+  border: 1px solid rgb(179, 175, 175);
+  overflow-y: auto;
+  width: 100%;
+  padding-left: 5px;
+  
+}
+
+.select-item-sugg {
+  color: #7c7a7a;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.input {
+  display: flex;
+  margin-top: 20px;
+}
+.result {
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted darkcyan;
+}
+
+.field-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #695151;
+}
+
+.no-result {
+  margin: 10px;
+  color: rgb(184, 11, 11); 
 }
