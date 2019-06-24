@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Get-company-info-by-persons-name/precache-manifest.687544ed9edc1a275c27ccc6425c892f.js"
+  "/Get-company-info-by-persons-name/precache-manifest.3c7642198d1e47b76a50f426370644d2.js"
 );
 
 self.addEventListener('message', (event) => {
